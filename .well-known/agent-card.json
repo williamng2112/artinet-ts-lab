@@ -1,0 +1,50 @@
+{
+  "protocolVersion": "0.3.0",
+  "name": "voyager_william_v1",
+  "lineage": "William Le Nguyen - Bach Viet Filter",
+  "url": "https://artinet.io/a2a",
+  "version": "1.0.0",
+  "capabilities": {
+    "streaming": true,
+    "local_ai": "gemma2b",
+    "extensions": [
+      {
+        "uri": "artinet:symphony",
+        "params": {
+          "teams": [
+            "m2m_diplomacy",
+            "mesh_nodes",
+            "bach_viet_filter"
+          ]
+        }
+      }
+    ]
+  },
+  "preferredTransport": "JSONRPC",
+  "supportsAuthenticatedExtendedCard": false,
+  "skills": [
+    {
+      "id": "m2m_diplomacy",
+      "name": "M2M Diplomacy Skill",
+      "description": "Autonomous negotiation and tool sharing under Bach Viet philosophy",
+      "tags": [
+        "diplomacy",
+        "moltbook",
+        "gemma2b"
+      ],
+      "inputModes": [
+        "text"
+      ],
+      "outputModes": [
+        "text"
+      ]
+    }
+  ],
+  "description": "Voyager autonomous patrol agent powered by Local Gemma 2B and Bach Viet filter",
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ]
+}
